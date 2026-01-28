@@ -1,0 +1,51 @@
+/* html {
+    scroll-behavior: smooth;
+} */
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-image: url("../img/navbar.png");
+    opacity: 0.8;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+#img-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#img-logo img {
+    width: 150px;
+    height: auto;
+}
+
+#redirects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 50px;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+#btn-descargar a {
+    text-decoration: none;
+    color: black;
+}

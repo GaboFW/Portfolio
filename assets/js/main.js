@@ -4,6 +4,8 @@ function $(id) {
 
 $("btn-ver").addEventListener("click", () => {
     const rutaCv = "assets/docs/CVGabrielFernandezWaisberg.pdf";
-    
+
     window.open(rutaCv, "_blank");
 });
+
+$("year").textContent = new Date().getFullYear();
